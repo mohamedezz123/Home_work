@@ -7,5 +7,5 @@ impact the way variables are used?*/
 void main() {
   String x = "ezz";
   // here the error occure  when u try to assigen var with diff type
-  x = 20;
+  //  x = 20;
 }

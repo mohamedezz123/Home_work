@@ -7,6 +7,6 @@
 void main() {
   String name = "alice";
   // error occure here in the line below
-  name = 123;
+  //name = 123;
   print(name);
 }
