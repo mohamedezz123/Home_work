@@ -16,5 +16,6 @@ class Calculator {
 
 void main() {
   Calculator calculator = Calculator(10, 20);
+
   calculator.addNumbers();
 }

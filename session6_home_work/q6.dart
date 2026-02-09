@@ -11,6 +11,7 @@ void main() {
   List<String> words = sentence.trim().split(RegExp(r'\s+'));
 
   int wordCount = words.length;
+  print(wordCount);
   String shortest = words[0];
   String longest = words[0];
 

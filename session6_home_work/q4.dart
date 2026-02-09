@@ -5,14 +5,16 @@ default price. Print their details.
  */
 
 class Product {
-  String name;
-  int price;
-  Product(this.name, {this.price = 0});
+  String? name;
+  int price = 0;
 }
 
 void main() {
-  Product product1 = Product('Product 1');
-  Product product2 = Product('Product 2', price: 200);
+  Product product1 = Product();
+  product1.name = 'product1';
+  Product product2 = Product();
+  product2.name = 'product2';
+  product2.price = 200;
 
   print("${product1.name}   ${product1.price}");
   print("${product2.name} ${product2.price}");
