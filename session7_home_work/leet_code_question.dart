@@ -14,11 +14,11 @@ class Solution {
       if (minPrice < element) {
         if (maxProfit < element - minPrice) {
           maxProfit = element - minPrice;
+          }
+        } else {
+          minPrice = element;
         }
-      } else {
-        minPrice = element;
       }
-    }
     print('$minPrice');
     print('$maxProfit');
 
