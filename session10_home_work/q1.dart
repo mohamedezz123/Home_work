@@ -6,18 +6,19 @@ You are building a simple notes app where users can write and manage their notes
 - The app should allow searching for a note by its title */
 
 class Note {
-  String title;
-  String content;
-  DateTime createdAt;
+  final String title;
+  final String content;
+  final DateTime createdAt;
 
-  Note(this.title, this.content) : createdAt = DateTime.now();
+  Note({required this.title, required this.content})
+    : createdAt = DateTime.now();
 }
 
 class NotesApp {
   List<Note> notes = [];
 
   void createNote(String title, String content) {
-    Note newNote = Note(title, content);
+    Note newNote = Note(title: title, content: content);
     notes.add(newNote);
   }
 
