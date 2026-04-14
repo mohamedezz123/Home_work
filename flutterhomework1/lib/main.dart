@@ -12,7 +12,7 @@ class FirstHomeWork extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Padding(
-          padding: const EdgeInsets.all(8),
+          padding: const EdgeInsets.all(16),
           child: Column(
             children: [
               Container(
@@ -25,7 +25,7 @@ class FirstHomeWork extends StatelessWidget {
                 children: [
                   Container(height: 40, width: 40, color: Color(0xffE0E0E0)),
                   Container(width: 10),
-                  Container(height: 40, width: 340, color: Color(0xffE0E0E0)),
+                  Container(height: 40, width: 325, color: Color(0xffE0E0E0)),
                 ],
               ),
               Container(height: 20),
@@ -49,13 +49,13 @@ class FirstHomeWork extends StatelessWidget {
                   ),
                   Container(width: 20),
 
-                  Container(height: 150, width: 107, color: Color(0xffFFCC80)),
+                  Container(height: 150, width: 95, color: Color(0xffFFCC80)),
                   Container(width: 10),
-                  Container(height: 150, width: 107, color: Color(0xffFFCC80)),
+                  Container(height: 150, width: 95, color: Color(0xffFFCC80)),
                 ],
               ),
               Container(height: 10),
-              Container(
+              Container(  
                 height: 120,
                 width: double.infinity,
                 color: Color(0xffF3E5F6),
@@ -94,9 +94,9 @@ class FirstHomeWork extends StatelessWidget {
               Container(height: 20),
               Row(
                 children: [
-                  Container(height: 60, width: 190, color: Color(0xffB2DFDC)),
+                  Container(height: 60, width: 182, color: Color(0xffB2DFDC)),
                   Container(width: 10),
-                  Container(height: 60, width: 190, color: Color(0xffB2DFDC)),
+                  Container(height: 60, width: 182, color: Color(0xffB2DFDC)),
                 ],
               ),
               Container(height: 20),

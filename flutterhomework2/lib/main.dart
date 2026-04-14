@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterhomework2/views/home_page.dart';
 
+import 'package:flutterhomework2/views/home_page2.dart';
+
 void main() {
   runApp(const MyApp());
 }
